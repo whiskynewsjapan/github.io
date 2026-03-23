@@ -1,0 +1,4 @@
+baseURL = "https://hagir.github.io/"
+languageCode = "ja"
+title = "Whisky News Japan"
+theme = "newsroom"
