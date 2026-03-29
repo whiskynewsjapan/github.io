@@ -188,7 +188,6 @@ img { max-width: 100%; height: auto; display: block; }
   margin-bottom: 16px;
   cursor: pointer;
 }
-}
 
 /* リスト形式記事 */
 .list-articles {
@@ -252,13 +251,4 @@ img { max-width: 100%; height: auto; display: block; }
 /* カテゴリページ */
 .category-header {
   display: none;
-}
-  border-bottom: 2px solid #b8860b;
-  margin-bottom: 12px;
-  padding-bottom: 6px;
-}
-
-.category-header h1 {
-  font-size: 22px;
-  font-weight: 700;
 }
