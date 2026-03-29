@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="container">
+  <div class="main-grid">
+    <article class="feed">
+      <div class="article-header">
+        <div class="article-cat">{{ index .Params.categories 0 }}</div>
+        <h1>{{ .Title }}</h1>
+        <div class="article-meta">
+          {{ .Date.Format "2006年1月2日" }}
+          {{ with .Params.author }} · {{ . }}{{ end }}
+        </div>
+      </div>
+    
+      <div class="article-body">
+        {{ .Content }}
+      </div>
+      <div class="article-tags">
+        {{ range .Params.tags }}
+        <a href="/tags/{{ . }}" class="tag">{{ . }}</a>
+        {{ end }}
+      </div>
+    </article>
+    <aside class="sidebar">
+    </aside>
+  </div>
+</div>
+{{ end }}

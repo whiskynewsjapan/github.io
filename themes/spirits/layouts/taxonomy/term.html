@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div class="container">
+  <div class="main-grid">
+    <div class="feed">
+      
+      {{ $pages := .Pages }}
+      {{ with index $pages 0 }}
+      {{ $hero := . }}
+      <div class="hero">
+        {{ with .Params.images }}
+        <div class="hero-img">
+          <a href="{{ $hero.Permalink }}"><img src="{{ index . 0 }}" alt="{{ $hero.Title }}"></a>
+        </div>
+        {{ end }}
+        <div class="hero-body">
+          <div class="hero-cat">{{ index $hero.Params.categories 0 }}</div>
+          <h2><a href="{{ $hero.Permalink }}">{{ $hero.Title }}</a></h2>
+          <div class="meta">{{ $hero.Date.Format "2006年1月2日" }}</div>
+        </div>
+      </div>
+      {{ end }}
+      <div class="list-articles">
+        {{ range after 3 $pages }}
+        {{ $p := . }}
+        <div class="list-item">
+          {{ with .Params.images }}
+          <div class="list-thumb">
+            <a href="{{ $p.Permalink }}"><img src="{{ index . 0 }}" alt="{{ $p.Title }}"></a>
+          </div>
+          {{ end }}
+          <div class="list-body">
+            <div class="card-cat">{{ index $p.Params.categories 0 }}</div>
+            <h4><a href="{{ $p.Permalink }}">{{ $p.Title }}</a></h4>
+            <div class="card-meta">{{ $p.Date.Format "2006年1月2日" }}</div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <aside class="sidebar">
+      {{ partial "sidebar.html" . }}
+    </aside>
+  </div>
+</div>
+{{ end }}

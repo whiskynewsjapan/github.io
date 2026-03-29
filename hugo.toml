@@ -1,4 +1,4 @@
-baseURL = "https://hagir.github.io/"
+baseURL = "https://whiskynewsjapan.github.io/github.io/"
 languageCode = "ja"
 title = "Whisky News Japan"
-theme = "newsroom"
+theme = "spirits"
