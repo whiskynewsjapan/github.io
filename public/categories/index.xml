@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Whisky News Japan</title>
-    <link>http://localhost:1313/github.io/categories/</link>
+    <link>https://whiskynewsjapan.github.io/github.io/categories/</link>
     <description>Recent content in Categories on Whisky News Japan</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 27 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://whiskynewsjapan.github.io/github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ウイスキー</title>
-      <link>http://localhost:1313/github.io/categories/%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC/</link>
+      <link>https://whiskynewsjapan.github.io/github.io/categories/%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC/</link>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/github.io/categories/%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC/</guid>
+      <guid>https://whiskynewsjapan.github.io/github.io/categories/%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC/</guid>
       <description></description>
     </item>
   </channel>
