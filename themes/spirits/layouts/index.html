@@ -10,7 +10,7 @@
       <div class="hero">
         {{ with .Params.images }}
         <div class="hero-img">
-          <a href="{{ $hero.Permalink }}"><img src="{{ index . 0 | relURL }}" alt="{{ $hero.Title }}"></a>
+          <a href="{{ $hero.Permalink }}"><img src="{{ index . 0 }}" alt="{{ $hero.Title }}"></a>
         </div>
         {{ end }}
         <div class="hero-body">
@@ -26,7 +26,7 @@
         <div class="list-item">
           {{ with .Params.images }}
           <div class="list-thumb">
-            <a href="{{ $.Permalink }}"><img src="{{ index . 0 | relURL }}" alt="{{ $.Title }}"></a>
+            <a href="{{ $.Permalink }}"><img src="{{ index . 0 }}" alt="{{ $.Title }}"></a>
           </div>
           {{ end }}
           <div class="list-body">
