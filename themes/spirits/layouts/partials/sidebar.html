@@ -4,7 +4,7 @@
 <div class="sidebar-card">
   {{ with .Params.images }}
   <div class="sidebar-thumb">
-    <a href="{{ $p.Permalink }}"><img src="{{ index . 0 }}" alt="{{ $p.Title }}"></a>
+    <a href="{{ $p.Permalink }}"><img src="{{ $.Site.BaseURL }}images/{{ path.Base (index . 0) }}" alt="{{ $p.Title }}"></a>
   </div>
   {{ end }}
   <div class="sidebar-info">

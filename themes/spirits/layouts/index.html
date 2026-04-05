@@ -10,7 +10,7 @@
       <div class="hero">
         {{ with .Params.images }}
         <div class="hero-img">
-          <a href="{{ $hero.Permalink }}"><img src="{{ index . 0 }}" alt="{{ $hero.Title }}"></a>
+          <a href="{{ $hero.Permalink }}"><img src="{{ $.Site.BaseURL }}images/{{ path.Base (index . 0) }}" alt="{{ $hero.Title }}"></a>
         </div>
         {{ end }}
         <div class="hero-body">
