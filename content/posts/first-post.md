@@ -4,7 +4,7 @@ date: 2026-03-26
 draft: false
 categories: ["ウイスキー"]
 tags: ["ウォーターフォード", "アイリッシュ"]
-images: ["/images/waterford.jpg"]
+images:  ["/github.io/images/waterford.jpg"]
 ---
 
 アンクルニアレストやヘブンズ・ドアの原酒を製造していることで知られる、テネシー州コロンビアに拠点をおくテネシー・ディスティリング・グループ（TDG）が、ウォーターフォード蒸留所を買収することが発表されました。
