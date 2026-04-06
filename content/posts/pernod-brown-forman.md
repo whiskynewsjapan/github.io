@@ -9,7 +9,7 @@ images: ["/images/Pernod-Ricard-Brown-Forman-merger.jpg"]
 
 世界第2位の蒸留酒メーカー、ペルノリカール社がジャックダニエルのオーナーとしても知られるブラウンフォーマン社との合併の協議を進めている。
 
-![ペルノリカールとブラウンフォーマンの合併](/images/Pernod-Ricard-Brown-Forman-merger.jpg)
+![ペルノリカールとブラウンフォーマンの合併](https://whiskynewsjapan.github.io/github.io/images/Pernod-Ricard-Brown-Forman-merger.jpg)
 
 ペルノリカール社のブランドポートフォリオにはアイリッシュ、スコッチなどが多く、一方でブラウンフォーマン社はアメリカンウイスキーを中心としたブランドを所有していることから、バランスの取れた大きな相乗効果を生み出すことが予想されている。
 
