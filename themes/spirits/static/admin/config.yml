@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: whiskynewsjapan/github.io
+  branch: master
+  base_url: https://sveltia-cms-auth.pages.dev
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: posts
+    label: 記事
+    folder: content/posts
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: タイトル, name: title, widget: string }
+      - { label: 公開日, name: date, widget: datetime, format: "YYYY-MM-DD" }
+      - { label: 下書き, name: draft, widget: boolean, default: false }
+      - { label: カテゴリ, name: categories, widget: list, default: ["ウイスキー"] }
+      - { label: タグ, name: tags, widget: list }
+      - { label: サムネイル, name: images, widget: list, field: { label: 画像, name: image, widget: image } }
+      - { label: 本文, name: body, widget: markdown }
