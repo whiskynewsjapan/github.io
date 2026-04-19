@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ウイスキー on Whisky News Japan</title>
-    <link>https://whiskynewsjapan.github.io/github.io/categories/%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC/</link>
+    <link>http://localhost:1313/github.io/categories/%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC/</link>
     <description>Recent content in ウイスキー on Whisky News Japan</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 27 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://whiskynewsjapan.github.io/github.io/categories/%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/github.io/categories/%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ペルノリカールとブラウンフォーマンが合併へ</title>
-      <link>https://whiskynewsjapan.github.io/github.io/posts/pernod-brown-forman/</link>
+      <link>http://localhost:1313/github.io/posts/pernod-brown-forman/</link>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://whiskynewsjapan.github.io/github.io/posts/pernod-brown-forman/</guid>
+      <guid>http://localhost:1313/github.io/posts/pernod-brown-forman/</guid>
       <description>&lt;p&gt;世界第2位の蒸留酒メーカー、ペルノリカール社がジャックダニエルのオーナーとしても知られるブラウンフォーマン社との合併の協議を進めている。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://whiskynewsjapan.github.io/github.io/images/Pernod-Ricard-Brown-Forman-merger.jpg&#34; alt=&#34;ペルノリカールとブラウンフォーマンの合併&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;ペルノリカール社のブランドポートフォリオにはアイリッシュ、スコッチなどが多く、一方でブラウンフォーマン社はアメリカンウイスキーを中心としたブランドを所有していることから、バランスの取れた大きな相乗効果を生み出すことが予想されている。&lt;/p&gt;&#xA;&lt;p&gt;ブラウンフォーマン社の強力なブランド力とペルノリカール社の強い世界中の流通網に関しても相乗効果が期待されている。&lt;/p&gt;&#xA;&lt;p&gt;この協議は合意に至るまでこれ以上のコメントは差し控えるという。&lt;/p&gt;&#xA;&lt;p&gt;世界の蒸留酒ブランドトップ100のうち2社が占めているのは15個と、市場全体への影響も多大となるだろう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>アメリカのウイスキーメーカーがウォーターフォードを買収</title>
-      <link>https://whiskynewsjapan.github.io/github.io/posts/first-post/</link>
+      <link>http://localhost:1313/github.io/posts/first-post/</link>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://whiskynewsjapan.github.io/github.io/posts/first-post/</guid>
+      <guid>http://localhost:1313/github.io/posts/first-post/</guid>
       <description>&lt;p&gt;アンクルニアレストやヘブンズ・ドアの原酒を製造していることで知られる、テネシー州コロンビアに拠点をおくテネシー・ディスティリング・グループ（TDG）が、ウォーターフォード蒸留所を買収することが発表されました。&lt;/p&gt;&#xA;&lt;p&gt;ウォーターフォード蒸留所は2015年よりシングルエステートにこだわったウイスキー造りを続けていましたが、財務上の問題により2024年から生産停止となっていました。&lt;/p&gt;&#xA;&lt;p&gt;TDGはウォーターフォード蒸留所に多額の投資を行い、事業を強化し、将来の成長を支える支援を行います。&lt;/p&gt;&#xA;&lt;p&gt;また、今回の買収には熟成中のウイスキーは含まれていないという。&lt;/p&gt;</description>
     </item>
   </channel>
