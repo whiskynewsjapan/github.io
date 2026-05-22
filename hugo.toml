@@ -1,4 +1,4 @@
-baseURL = "https://whiskynewsjapan.github.io/github.io/"
+baseURL = "https://ubiquitous-pudding-9587ca.netlify.app/"
 languageCode = "ja"
 title = "Whisky News Japan"
 theme = "spirits"
