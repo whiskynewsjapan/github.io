@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: netlify
   repo: whiskynewsjapan/github.io
   branch: master
 
