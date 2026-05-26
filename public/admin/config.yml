@@ -2,8 +2,8 @@ backend:
   name: github
   repo: whiskynewsjapan/github.io
   branch: master
-  auth_type: pkce
-  app_id: Ov23liCL5zrXdfE2jeio
+  base_url: https://ubiquitous-pudding-9587ca.netlify.app
+  auth_endpoint: /.netlify/git/github
 
 media_folder: static/images
 public_folder: /images
