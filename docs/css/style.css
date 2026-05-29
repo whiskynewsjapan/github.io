@@ -252,3 +252,66 @@ img { max-width: 100%; height: auto; display: block; }
 .category-header {
   display: none;
 }
+/* 広告レイアウト */
+.ad-top {
+  background: #f0ede8;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 0.5px solid #e0ddd8;
+}
+
+.ad-banner {
+  display: inline-block;
+  width: 728px;
+  height: 90px;
+  background: #e0ddd8;
+  border: 1px dashed #aaa;
+  line-height: 90px;
+  font-size: 12px;
+  color: #999;
+}
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.ad-left, .ad-right {
+  width: 180px;
+  flex-shrink: 0;
+  padding: 24px 10px;
+}
+
+.ad-skyscraper {
+  width: 160px;
+  height: 600px;
+  background: #e0ddd8;
+  border: 1px dashed #aaa;
+  font-size: 12px;
+  color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: sticky;
+  top: 80px;
+}
+
+.page-content {
+  flex: 1;
+  min-width: 0;
+  max-width: 1180px;
+}
+
+/* レスポンシブ：スマホでは広告非表示 */
+@media (max-width: 1100px) {
+  .ad-left, .ad-right {
+    display: none;
+  }
+  .ad-top {
+    display: none;
+  }
+}

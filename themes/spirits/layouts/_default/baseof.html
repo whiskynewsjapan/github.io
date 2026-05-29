@@ -7,10 +7,23 @@
 <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 <body>
+<div class="ad-top">
+  <div class="ad-banner">広告スペース 728×90</div>
+</div>
 {{ partial "header.html" . }}
-<main>
-{{ block "main" . }}{{ end }}
-</main>
-{{ partial "footer.html" . }}
+<div class="page-wrapper">
+  <div class="ad-left">
+    <div class="ad-skyscraper">広告<br>160×600</div>
+  </div>
+  <div class="page-content">
+    <main>
+    {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+  </div>
+  <div class="ad-right">
+    <div class="ad-skyscraper">広告<br>160×600</div>
+  </div>
+</div>
 </body>
 </html>
