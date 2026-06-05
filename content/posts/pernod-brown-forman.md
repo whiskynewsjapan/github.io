@@ -2,7 +2,7 @@
 title: "ペルノリカールとブラウンフォーマンが合併へ"
 date: 2026-03-27
 draft: false
-categories: categories: ["アメリカン", "スコッチ"]
+categories: ["アメリカン", "スコッチ"]
 tags: ["ペルノリカール", "ブラウンフォーマン", "合併"]
 images: ["/images/Pernod-Ricard-Brown-Forman-merger.jpg"]
 ---
