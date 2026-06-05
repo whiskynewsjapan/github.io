@@ -2,7 +2,7 @@
 title: "アメリカのウイスキーメーカーがウォーターフォードを買収"
 date: 2026-03-26
 draft: false
-categories: ["ウイスキー"]
+categories: ["アイリッシュ"]
 tags: ["ウォーターフォード", "アイリッシュ"]
 images:  ["/github.io/images/waterford.jpg"]
 ---
